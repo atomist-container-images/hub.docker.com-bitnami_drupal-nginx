@@ -1,12 +1,21 @@
-# Tags: latest, 9.3.12-debian-10-r8, 9.3.12, 9-debian-10, 9
+# Tags: latest, 9.3.12-debian-10-r11, 9.3.12, 9-debian-10, 9
 FROM bitnami/drupal-nginx:latest
-FROM bitnami/drupal-nginx:9.3.12-debian-10-r8
+FROM bitnami/drupal-nginx:9.3.12-debian-10-r11
 FROM bitnami/drupal-nginx:9.3.12
 FROM bitnami/drupal-nginx:9-debian-10
 FROM bitnami/drupal-nginx:9
 
 # Tags: _
 FROM bitnami/drupal-nginx:_
+
+# Tags: 9.3.12-debian-10-r10
+FROM bitnami/drupal-nginx:9.3.12-debian-10-r10
+
+# Tags: 9.3.12-debian-10-r9
+FROM bitnami/drupal-nginx:9.3.12-debian-10-r9
+
+# Tags: 9.3.12-debian-10-r8
+FROM bitnami/drupal-nginx:9.3.12-debian-10-r8
 
 # Tags: 9.3.12-debian-10-r7
 FROM bitnami/drupal-nginx:9.3.12-debian-10-r7
@@ -84,15 +93,3 @@ FROM bitnami/drupal-nginx:9.3.9-debian-10-r13
 
 # Tags: 9.3.9-debian-10-r12
 FROM bitnami/drupal-nginx:9.3.9-debian-10-r12
-
-# Tags: 9.3.9-debian-10-r11
-FROM bitnami/drupal-nginx:9.3.9-debian-10-r11
-
-# Tags: 9.3.9-debian-10-r10
-FROM bitnami/drupal-nginx:9.3.9-debian-10-r10
-
-# Tags: 9.3.9-debian-10-r9
-FROM bitnami/drupal-nginx:9.3.9-debian-10-r9
-
-# Tags: 9.3.9-debian-10-r8
-FROM bitnami/drupal-nginx:9.3.9-debian-10-r8
